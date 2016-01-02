@@ -1,0 +1,147 @@
+/* CSS reset 
+	(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+
+/* General styles 
+	(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+body {
+	background-image: url(../img/sativa.png);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+	color: #E6E6E6;
+}
+
+.content {
+	width: 75%;
+}
+
+h1 {
+	font-size: 5rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+}
+
+.selected {
+	color: #E6E6E6;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* Header styles 
+	(all the styles inside the < header > or < nav > tags) 
+*/
+
+.top-navigation {
+	background-color: #6EC038;
+	position: fixed;
+	width: 100%;
+	z-index: 100000;
+}
+
+.top-navigation .content {
+	height: 4rem;
+	margin: 0 auto;
+
+}
+
+.top-navigation .links {
+	float: left;
+	padding-top: 1rem;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 3rem;
+
+}
+
+
+
+
+/* Content styles 
+	(all the styles inside the < sections > or < aside > tags)
+*/
+#title {
+	padding-top: 10rem;
+	text-align: center;
+}
+
+.introduction {
+	background-color: white;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.introduction .content {
+	margin: 0 auto;
+}
+
+.coverPhoto{
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+.introduction .content p {
+	max-width: 100%;
+	padding-top: 3rem;
+	padding-bottom: 10rem;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+/**************************** Interests Page ****************************/
+
+#interestsCoverPhoto {
+	border: 1px solid #E6E6E6;
+}
+
+.dayAndNight {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.dayAndNight li {
+	display: inline-block;
+	padding-left: 1%;
+	width: 49%;
+}
+
+.dayAndNight li img {
+	width: 100%;
+	border-radius: 10px;
+}
+/* Footer styles 
+	(all the styles inside the < footer > tag)
+*/
+
+
+/* Responsive styles 
+	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
+
